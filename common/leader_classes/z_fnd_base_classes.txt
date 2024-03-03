@@ -1,0 +1,58 @@
+envoy = {
+	name = envoy
+	name_plural = envoy_plural
+	description = envoy_description
+	can_be_envoy = yes
+	default_category = envoy
+	assignment_cooldown = 360
+	can_have_traits = no
+	recruitable = no
+	can_rule_empire = no
+	can_be_assigned_to_federation = no
+	can_be_assigned_to_galactic_community = no
+	icon = 5
+	paragon_background_selector = "paragon_background_selector"
+
+	resources = {
+		produces = {
+			trigger = {
+				is_idle = no
+				exists = owner
+				owner = {
+					has_tradition = tr_politics_adopt
+					has_tradition = tr_diplomacy_galactic_ambassadors
+				}
+				OR = {
+					has_envoy_task = {
+						task = galactic_community
+					}
+					has_envoy_task = {
+						task = strengthen_imperial_authority
+					}
+					has_envoy_task = {
+						task = undermine_imperial_authority
+					}
+				}
+			}
+			influence = 0.1
+		}
+		produces = {
+			trigger = {
+				is_idle = no
+				exists = owner
+				owner = {
+					has_tradition = tr_diplomacy_galactic_ambassadors
+				}
+				OR = {
+					has_envoy_task = {
+						task = federation
+					}
+					has_envoy_task = {
+						task = improve_relations
+					}
+				}
+			}
+			influence = 0.1
+		}
+	}
+}

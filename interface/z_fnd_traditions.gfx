@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	### DIPLOMATIC ###
+
+	spriteType = {
+		name = "GFX_tr_diplomacy_galactic_ambassadors"
+		textureFile = "gfx/interface/icons/traditions/tradition_diplomacy_galactic_ambassadors.dds"
+	}
+
+}
