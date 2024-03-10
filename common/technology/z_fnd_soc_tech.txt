@@ -12,13 +12,13 @@ tech_federations = {
 	}
 
 	weight_modifier = {
-		modifier = {
-			factor = 0
-			NOR = {
-				has_technology = tech_xeno_diplomacy
-				has_technology = tech_autonomous_agents
-			}
-		}
+		# modifier = {
+		# 	factor = 0
+		# 	NOR = {
+		# 		has_technology = tech_xeno_diplomacy
+		# 		has_technology = tech_autonomous_agents
+		# 	}
+		# }
 		modifier = {
 			factor = 1.5
 			has_ethic = ethic_fanatic_xenophile
