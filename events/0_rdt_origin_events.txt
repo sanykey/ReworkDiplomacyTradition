@@ -9,7 +9,7 @@ country_event = {
 	immediate = {
 		set_country_flag = first_contact_event
 		set_country_flag = Story2 # Already encountered spacefarers
-		give_technology = { message = no tech = tech_federations }
+		give_technology = { message = no tech = tech_rdt_federations }
 
 		# Replace prescripted ideal planets with barren worlds and spawn federation partners.
 		if = {
@@ -331,7 +331,7 @@ country_event = {
 				override_requirements = yes
 			}
 			set_name = random # Fixes some naming issues
-			add_research_option = tech_federations
+			add_research_option = tech_rdt_federations
 		}
 		event_target:fed_member_2 = {
 			create_starting_leaders = yes
@@ -343,7 +343,7 @@ country_event = {
 				override_requirements = yes
 			}
 			set_name = random # Fixes some naming issues
-			add_research_option = tech_federations
+			add_research_option = tech_rdt_federations
 		}
 
 		# Set Intel levels, Opinion, and Federation laws

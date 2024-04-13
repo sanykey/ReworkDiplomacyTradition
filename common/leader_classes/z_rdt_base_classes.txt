@@ -20,7 +20,7 @@ envoy = {
 				exists = owner
 				owner = {
 					has_tradition = tr_politics_adopt
-					has_tradition = tr_diplomacy_galactic_ambassadors
+					has_tradition = tr_rdt_diplomacy_galactic_ambassadors
 				}
 				OR = {
 					has_envoy_task = {
@@ -41,7 +41,7 @@ envoy = {
 				is_idle = no
 				exists = owner
 				owner = {
-					has_tradition = tr_diplomacy_galactic_ambassadors
+					has_tradition = tr_rdt_diplomacy_galactic_ambassadors
 				}
 				OR = {
 					has_envoy_task = {

@@ -3,7 +3,7 @@ tradition_diplomacy = {
 	adoption_bonus = "tr_diplomacy_adopt"
 	finish_bonus = "tr_diplomacy_finish"
 	traditions = {
-		"tr_diplomacy_galactic_ambassadors"
+		"tr_rdt_diplomacy_galactic_ambassadors"
 		"tr_diplomacy_entente_coordination"
 		"tr_diplomacy_diplomatic_networking"
 		"tr_diplomacy_direct_diplomacy"

@@ -1,0 +1,11 @@
+﻿l_russian:
+ requires_technology_federations:1 "$TRIGGER_FAIL$Requires the £society£ §Y$tech_rdt_federations$§! technology.§!"
+
+ tech_rdt_federations:0 "Federations"
+ tech_rdt_federations_desc:0 "We must build stable and lasting partnerships with our neighbors, based on trust and mutual respect. Together we are far stronger than we could ever hope to be alone."
+ tech_rdt_federations_effect:0 "$TECH_UNLOCK_DIPLOMATIC_ACTION_CREATE_FEDERATION_TITLE$"
+
+ tech_rdt_federations_effect:1 "$TECH_UNLOCK_DIPLOMATIC_ACTION_CREATE_FEDERATION_TITLE$\nCan become Federation President."
+ tr_rdt_diplomacy_galactic_ambassadors:0 "Galactic Ambassadors"
+ tr_rdt_diplomacy_galactic_ambassadors_desc:0 "§G+1§! Envoy\nEnvoys §YImproving Relations§! or assigned to our §YFederation§! now produce 0.1 £influence£ §YInfluence§!."
+ tr_rdt_diplomacy_galactic_ambassadors_delayed:0 "Building relations with our galactic neighbours was never going to be easy, our dedicated network of diplomats must work hard to spread our message of cooperation."

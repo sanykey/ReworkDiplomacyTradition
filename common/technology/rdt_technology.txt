@@ -1,24 +1,23 @@
-#Federations
-tech_federations = {
-	cost = @tier2cost3
-	area = society
+tech_rdt_federations = {
 	tier = 2
+	cost = @tier2cost3
+	weight = @tier2weight2
+	area = society
 	category = { statecraft }
-	prerequisites = { "tech_colonial_centralization" }
-	weight = @tier2weight3
 
 	modifier = {
-		custom_tooltip = tech_federations_effect
+		custom_tooltip = tech_rdt_federations_effect
 	}
 
 	weight_modifier = {
-		# modifier = {
-		# 	factor = 0
-		# 	NOR = {
-		# 		has_technology = tech_xeno_diplomacy
-		# 		has_technology = tech_autonomous_agents
-		# 	}
-		# }
+		modifier = {
+			factor = 1.25
+			has_technology = tech_xeno_diplomacy
+		}
+		modifier = {
+			factor = 1.25
+			has_technology = tech_xeno_relations
+		}
 		modifier = {
 			factor = 1.5
 			has_ethic = ethic_fanatic_xenophile
@@ -81,4 +80,5 @@ tech_federations = {
 			has_tradition = tr_diplomacy_adopt
 		}
 	}
+
 }

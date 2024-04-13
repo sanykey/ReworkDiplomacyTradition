@@ -1,0 +1,7 @@
+
+# This = country
+# on_tradition_picked = {
+# 	events = {
+# 		rdt_events.1
+# 	}
+# }

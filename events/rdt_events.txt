@@ -1,0 +1,16 @@
+# namespace = rdt_events
+
+# country_event = {
+# 	id = rdt_events.1
+# 	hide_window = yes
+# 	is_triggered_only = yes
+
+# 	trigger = {
+# 		has_tradition = tr_rdt_diplomacy_galactic_ambassadors
+# 		NOT = { has_technology = tech_rdt_federations }
+# 	}
+
+# 	immediate = {
+# 		add_research_option = tech_rdt_federations
+# 	}
+# }
